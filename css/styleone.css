@@ -1,0 +1,38 @@
+.img{
+
+}
+@media screen and (max-width:480px){
+    
+    .img{
+        height: 280px !important;
+        margin-bottom: 100px;
+    }
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+    .para{
+        width: 320px;
+    }
+    }
+
+.text{
+    width: 40%;
+}
+.nav-bar{
+    position: sticky;
+    top: 0.25rem;
+    z-index: 2000;
+}
+
+.status-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.status-card{
+    transition: 0.3s;
+}
+.status-card:active{
+    transform: scale(1.03);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
